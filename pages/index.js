@@ -1,7 +1,7 @@
 import { generateUploadButton } from "@uploadthing/react";
 import "@uploadthing/react/styles.css";
 
-export const UploadButton = generateUploadButton();
+const UploadButton = generateUploadButton();
 
 export default function HomePage() {
   return (
